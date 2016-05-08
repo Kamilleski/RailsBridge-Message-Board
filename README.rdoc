@@ -1,28 +1,33 @@
-== README
+= MessageBoard[http://docs.railsbridge.org/message-board/]
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Assumptions made by this curriculum
 
-Things you may want to cover:
+* You’ve gone through the standard RailsBridge installfest and have successfully completed the Get a Sticker step.
+* You’ve gone through the RailsBridge Suggestotron curriculum and the Job Board curriculum at least once before, or maybe a couple of times, or maybe you feel decently comfortable with Rails for some other reason.
+* You want to learn more Rails!!!
 
-* Ruby version
+== Goals
+* Make a thing!
+* Understand what the models, views, and controllers of a Rails app do and how they work together.
+* Get more comfortable using error messages as guideposts and not as scary things.
 
-* System dependencies
+== What’s Going to Happen?
 
-* Configuration
+We’re going to build a message board system, where there are posts on the front page and you click through to see the original post plus discussion below.
 
-* Database creation
+== We’ve divided this into challenges:
 
-* Database initialization
+Challenge 1: Create a new rails app with a static home page
+Challenge 2: Install Devise
+Challenge 3: Make it pretty with Bootstrap
+Challenge 4: Add pages to create and look at individual posts
+Challenge 5: Make a posts index page
+Challenge 6: Add replying
+Challenge 7: Inline replying on a post
+Challenge ∞: Other features of your choice
 
-* How to run the test suite
+Each time you get your app into a functional state, before adding any more features, COMMIT TO GIT! The new features will probably break things, which is neat, but you’ll want to be able to roll back to a prior version if necessary.
 
-* Services (job queues, cache servers, search engines, etc.)
+== MAJORLY IMPORTANT NOTE: 
+We called the sections challenges because they are challenging! This curriculum will be most fun as a collaboration — talk things through with your teacher, TAs, and other students. This is a very different style of curriculum than Suggestotron, so don’t be discouraged if you aren't quite sure what to do next.
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
